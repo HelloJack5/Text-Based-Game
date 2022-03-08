@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1646742462 source:c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parsexec.h"
+
+1646741340 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\parsexec.h
+
+1646741525 source:c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\parsexec.c
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+
