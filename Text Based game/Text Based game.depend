@@ -12,3 +12,16 @@
 	<stdio.h>
 	<string.h>
 
+1646812593 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"parsexec.h"
+
+1646812593 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.h
+
+1646816193 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+
