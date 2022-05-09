@@ -33,14 +33,23 @@
 		</Compiler>
 		<Unit filename="location.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="location.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="location.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="misc.h" />
+		<Unit filename="noun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="noun.h" />
+		<Unit filename="object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="object.h" />
 		<Unit filename="parsexec.c">
 			<Option compilerVar="CC" />
 		</Unit>

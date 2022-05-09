@@ -12,16 +12,32 @@
 	<stdio.h>
 	<string.h>
 
-1646812593 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
+1652030071 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
 	"parsexec.h"
 
-1646812593 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.h
+1646816193 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.h
 
-1646816193 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
+1652030719 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
 	<stdbool.h>
 	<stdio.h>
 	<string.h>
+	"location.h"
+
+1652030872 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.h
+
+1652074615 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.c
+	<stdio.h>
+	<string.h>
+	"object.h"
+	"misc.h"
+	"noun.h"
+
+1652072890 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.h
+
+1652073774 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.h
+
+1652073224 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.h
 
