@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="inventory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inventory.h" />
 		<Unit filename="location.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -42,6 +46,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="misc.h" />
+		<Unit filename="move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="move.h" />
 		<Unit filename="noun.c">
 			<Option compilerVar="CC" />
 		</Unit>

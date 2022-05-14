@@ -20,24 +20,60 @@
 
 1646816193 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.h
 
-1652030719 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
+1652542653 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
 	<stdbool.h>
 	<stdio.h>
 	<string.h>
 	"location.h"
+	"inventory.h"
 
 1652030872 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.h
 
-1652074615 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.c
+1652542070 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.c
+	<stdbool.h>
 	<stdio.h>
 	<string.h>
 	"object.h"
 	"misc.h"
 	"noun.h"
 
-1652072890 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.h
+1652542514 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.h
 
-1652073774 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.h
+1652541994 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.h
+	<stdbool.h>
 
-1652073224 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.h
+1652540057 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.h
+
+1652542551 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.c
+	<stdio.h>
+	"object.h"
+
+1652542121 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.c
+	<stdbool.h>
+	<stdio.h>
+	"object.h"
+	"misc.h"
+	"noun.h"
+	"move.h"
+
+1652540011 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\move.h
+
+1652541769 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.c
+	<stdbool.h>
+	<stdio.h>
+	"object.h"
+	"misc.h"
+
+1652540021 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\move.c
+	<stdio.h>
+	"object.h"
+
+1652542634 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.c
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	"object.h"
+	"misc.h"
+
+1652539907 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.h
 
