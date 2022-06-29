@@ -9,7 +9,7 @@ static const char *tags4[] = {"guard", "burly guard", NULL};
 static const char *tags5[] = {"yourself", NULL};
 static const char *tags6[] = {"east", "entrance", NULL};
 static const char *tags7[] = {"west", "exit", NULL};
-static const char *tags8[] = {"west", "north", "forest", NULL};
+static const char *tags8[] = {"north", "forest", NULL};
 static const char *tags9[] = {"north", "south", "rock", NULL};
 static const char *tags10[] = {"gate", "gate", "gate that needs keys", NULL};
 static const char *tags11[] = {"south", "entrance", NULL};
@@ -20,6 +20,14 @@ static const char *tags15[] = {"crop_field", NULL};
 static const char *tags16[] = {"south", "west","north", "forest", NULL};
 static const char *tags17[] = {"west", "entrance", NULL};
 static const char *tags18[] = {"east", "exit", NULL};
+static const char *tags19[] = {"ZOO", NULL};
+static const char *tags20[] = {"south", "east","north", "forest", NULL};
+static const char *tags21[] = {"east", "entrance", NULL};
+static const char *tags22[] = {"west", "exit", NULL};
+static const char *tags23[] = {"west", "ZOO_entrance", NULL};
+static const char *tags24[] = {"east", "ZOO_exit", NULL};
+static const char *tags25[] = {"BBQ_site", NULL};
+
 
 
 
@@ -43,7 +51,14 @@ OBJECT objs[] = {
     {"a crop field"              , tags15, NULL , NULL  },
     {"dense forest all around"    , tags16, crop_field, NULL  },
     {"a crop field entrance to the west", tags17, garden, crop_field  },
-   {"an exit to the east"        , tags18, crop_field , garden }
+   {"an exit to the east"        , tags18, crop_field , garden },
+   {"a ZOO"              , tags19, NULL , NULL  },
+    {"dense forest all around"    , tags20, ZOO, NULL  },
+    {"a ZOO entrance to the east", tags21, garden, ZOO  },
+   {"an exit to the west"        , tags22, ZOO , garden },
+    {"a BBQ site entrance to the west", tags23, field, BBQ_site  },
+   {"an exit to the east"        , tags24, BBQ_site , field },
+   {"a BBQ site"              , tags25, NULL , NULL  }
 
 
 };

@@ -26,5 +26,12 @@ extern OBJECT objs[];
 #define wallCrop_field  (objs + 16)
 #define intoCrop_field   (objs + 17)
 #define exitCrop_field   (objs + 18)
+#define ZOO   (objs + 19)
+#define wallZOO  (objs + 20)
+#define intoZOO   (objs + 21)
+#define exitZOO   (objs + 22)
+#define intoBBQ_site   (objs + 23)
+#define exitBBQ_site   (objs + 24)
+#define BBQ_site   (objs + 25)
 
-#define endOfObjs  (objs + 19)
+#define endOfObjs  (objs + 26)
