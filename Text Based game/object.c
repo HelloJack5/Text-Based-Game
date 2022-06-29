@@ -9,7 +9,7 @@ static const char *tags4[] = {"guard", "burly guard", NULL};
 static const char *tags5[] = {"yourself", NULL};
 static const char *tags6[] = {"east", "entrance", NULL};
 static const char *tags7[] = {"west", "exit", NULL};
-static const char *tags8[] = {"north", "forest", NULL};
+static const char *tags8[] = {"forest", NULL};
 static const char *tags9[] = {"north", "south", "rock", NULL};
 static const char *tags10[] = {"gate", "gate", "gate that needs keys", NULL};
 static const char *tags11[] = {"south", "entrance", NULL};
@@ -27,6 +27,26 @@ static const char *tags22[] = {"west", "exit", NULL};
 static const char *tags23[] = {"west", "ZOO_entrance", NULL};
 static const char *tags24[] = {"east", "ZOO_exit", NULL};
 static const char *tags25[] = {"BBQ_site", NULL};
+static const char *tags26[] = {"grandparents", NULL};
+static const char *tags27[] = {"east", "west","north", "forest", NULL};
+static const char *tags28[] = {"north", "entrance", NULL};
+static const char *tags29[] = {"south", "exit", NULL};
+static const char *tags30[] = {"close_family", NULL};
+static const char *tags31[] = {"west", "south","north", "forest", NULL};
+static const char *tags32[] = {"west", "entrance", NULL};
+static const char *tags33[] = {"east", "exit", NULL};
+static const char *tags34[] = {"uncle_aunt", NULL};
+static const char *tags35[] = {"west", "south","east", "forest", NULL};
+static const char *tags36[] = {"south", "entrance", NULL};
+static const char *tags37[] = {"north", "exit", NULL};
+static const char *tags38[] = {"house", NULL};
+static const char *tags39[] = {"north", "entrance", NULL};
+static const char *tags40[] = {"south", "exit", NULL};
+static const char *tags41[] = {"kitchen", NULL};
+static const char *tags42[] = {"west", "south","north", "wall", NULL};
+static const char *tags43[] = {"west", "entrance", NULL};
+static const char *tags44[] = {"east", "exit", NULL};
+
 
 
 
@@ -58,7 +78,26 @@ OBJECT objs[] = {
    {"an exit to the west"        , tags22, ZOO , garden },
     {"a BBQ site entrance to the west", tags23, field, BBQ_site  },
    {"an exit to the east"        , tags24, BBQ_site , field },
-   {"a BBQ site"              , tags25, NULL , NULL  }
+   {"a BBQ site"              , tags25, NULL , NULL  },
+    {"grandparents"              , tags26, NULL , NULL  },
+    {"dense forest all around"    , tags27, grandparents, NULL  },
+   {"grandparents to the north", tags28, BBQ_site, grandparents  },
+   {"an exit to the south"        , tags29, grandparents ,  BBQ_site},
+    {"close family"              , tags30, NULL , NULL  },
+    {"dense forest all around"    , tags31, close_family, NULL  },
+   {"close family to the west", tags32, BBQ_site, close_family  },
+   {"an exit to the west"        , tags33, close_family ,  BBQ_site},
+   {"uncle_aunt"              , tags34, NULL , NULL  },
+    {"dense forest all around"    , tags35, uncle_aunt, NULL  },
+   {"Uncle and aunt to the south", tags36, BBQ_site, uncle_aunt  },
+   {"an exit to the north"        , tags37, uncle_aunt ,  BBQ_site},
+   {"house"              , tags38, NULL , NULL  },
+   {"House to the north", tags39, field, house  },
+   {"an exit to the south"        , tags40, house ,  field},
+   {"kitchen"              , tags41, NULL , NULL  },
+    {"White walls all around"    , tags42, kitchen, NULL  },
+   {"kitchen to the west", tags43, house, kitchen  },
+   {"an exit to the east"        , tags44, kitchen ,  house}
 
 
 };
