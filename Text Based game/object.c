@@ -46,7 +46,25 @@ static const char *tags41[] = {"kitchen", NULL};
 static const char *tags42[] = {"west", "south","north", "wall", NULL};
 static const char *tags43[] = {"west", "entrance", NULL};
 static const char *tags44[] = {"east", "exit", NULL};
-
+static const char *tags45[] = {"bathroom", NULL};
+static const char *tags46[] = {"east", "south","north", "wall", NULL};
+static const char *tags47[] = {"east", "entrance", NULL};
+static const char *tags48[] = {"west", "exit", NULL};
+static const char *tags49[] = {"living_room", NULL};
+static const char *tags50[] = {"north", "entrance", NULL};
+static const char *tags51[] = {"south", "exit", NULL};
+static const char *tags52[] = {"storage_room", NULL};
+static const char *tags53[] = {"west", "south","north", "wall", NULL};
+static const char *tags54[] = {"west", "entrance", NULL};
+static const char *tags55[] = {"east", "exit", NULL};
+static const char *tags56[] = {"bedroom", NULL};
+static const char *tags57[] = {"west", "east","north", "wall", NULL};
+static const char *tags58[] = {"north", "entrance", NULL};
+static const char *tags59[] = {"south", "exit", NULL};
+static const char *tags60[] = {"garage", NULL};
+static const char *tags61[] = {"south", "east","north", "wall", NULL};
+static const char *tags62[] = {"east", "entrance", NULL};
+static const char *tags63[] = {"west", "exit", NULL};
 
 
 
@@ -97,7 +115,26 @@ OBJECT objs[] = {
    {"kitchen"              , tags41, NULL , NULL  },
     {"White walls all around"    , tags42, kitchen, NULL  },
    {"kitchen to the west", tags43, house, kitchen  },
-   {"an exit to the east"        , tags44, kitchen ,  house}
+   {"an exit to the east"        , tags44, kitchen ,  house},
+   {"bathroom"              , tags45, NULL , NULL  },
+    {"White walls all around"    , tags46, bathroom, NULL  },
+   {"bathroom to the east", tags47, house, bathroom  },
+   {"an exit to the west"        , tags48, bathroom ,  house},
+   {"living room"              , tags49, NULL , NULL  },
+   {"living room to the north", tags50, house, living_room  },
+   {"an exit to the south"        , tags51, living_room ,  house},
+   {"storage room"              , tags52, NULL , NULL  },
+    {"White walls all around"    , tags53, storage_room, NULL  },
+   {"storage room to the west", tags54, living_room, storage_room  },
+   {"an exit to the east"        , tags55, storage_room ,  living_room},
+   {"bedroom"              , tags56, NULL , NULL  },
+    {"White walls all around"    , tags57, bedroom, NULL  },
+   {"bedroom to the north", tags58, living_room, bedroom  },
+   {"an exit to the south"        , tags59, bedroom ,  living_room},
+   {"garage"              , tags60, NULL , NULL  },
+    {"White walls all around"    , tags61, garage, NULL  },
+   {"garage to the east", tags62, living_room, garage  },
+   {"an exit to the west" , tags63, garage ,  living_room}
 
 
 };
