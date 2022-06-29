@@ -79,7 +79,7 @@
 
 1652539907 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.h
 
-1656499941 source:c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\inventory.c
+1656527951 source:c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\inventory.c
 	<stdbool.h>
 	<stdio.h>
 	"object.h"
@@ -87,7 +87,7 @@
 	"noun.h"
 	"move.h"
 
-1656504478 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\object.h
+1656527951 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\object.h
 
 1656499941 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\misc.h
 	<stdbool.h>
@@ -124,4 +124,8 @@
 1652161230 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\location.h
 
 1656499941 c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\inventory.h
+
+1656527951 source:c:\users\jakob\desktop\faks\semester 2\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text-based-game\text based game\object.c
+	<stdio.h>
+	"object.h"
 
