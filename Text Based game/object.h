@@ -71,6 +71,9 @@ extern OBJECT objs[];
 #define wallGarage  (objs + 61)
 #define intogarage   (objs + 62)
 #define exitgarage (objs + 63)
+#define red_key     (objs + 64)
+#define green_key     (objs + 65)
+#define blue_key     (objs + 66)
 
 
-#define endOfObjs  (objs + 64)
+#define endOfObjs  (objs + 67)

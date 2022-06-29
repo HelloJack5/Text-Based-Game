@@ -19,7 +19,6 @@ void executeGet(const char *noun)
       printf("Too far away, move closer please.\n");
       break;
    case distUnknownObject:
-      // already handled by getVisible
       break;
    default:
       if (obj->location == guard)
@@ -50,5 +49,9 @@ void executeInventory(void)
    if (listObjectsAtLocation(player) == 0)
    {
       printf("You are empty-handed.\n");
+   }
+   else if (listObjectsAtLocation(player) == 5)
+   {
+      printf("You have collected all the collectibles and keys, so you can unlock the gate in the cave \n Victory!");
    }
 }

@@ -10,7 +10,7 @@ static const char *tags5[] = {"yourself", NULL};
 static const char *tags6[] = {"east", "entrance", NULL};
 static const char *tags7[] = {"west", "exit", NULL};
 static const char *tags8[] = {"forest", NULL};
-static const char *tags9[] = {"north", "south", "rock", NULL};
+static const char *tags9[] = {"north", "south", "east", "rock", NULL};
 static const char *tags10[] = {"gate", "gate", "gate that needs keys", NULL};
 static const char *tags11[] = {"south", "entrance", NULL};
 static const char *tags12[] = {"north", "exit", NULL};
@@ -65,6 +65,9 @@ static const char *tags60[] = {"garage", NULL};
 static const char *tags61[] = {"south", "east","north", "wall", NULL};
 static const char *tags62[] = {"east", "entrance", NULL};
 static const char *tags63[] = {"west", "exit", NULL};
+static const char *tags64[] = {"red", "key", "red key", NULL};
+static const char *tags65[] = {"green ", "key", "green key", NULL};
+static const char *tags66[] = {"blue", "key", "blue key", NULL};
 
 
 
@@ -134,7 +137,10 @@ OBJECT objs[] = {
    {"garage"              , tags60, NULL , NULL  },
     {"White walls all around"    , tags61, garage, NULL  },
    {"garage to the east", tags62, living_room, garage  },
-   {"an exit to the west" , tags63, garage ,  living_room}
+   {"an exit to the west" , tags63, garage ,  living_room},
+   {"a red key"              , tags64, garage, NULL  },
+   {"a green key"              , tags65, crop_field, NULL  },
+   {"a blue key"              , tags66, close_family, NULL  }
 
 
 };
