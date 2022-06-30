@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "object.h"
 
+//definicija tagov, za objekte
 static const char *tags0[] = {"field", NULL};
 static const char *tags1[] = {"cave", NULL};
 static const char *tags2[] = {"silver", "coin", "silver coin", NULL};
@@ -72,7 +73,7 @@ static const char *tags66[] = {"blue", "key", "blue key", NULL};
 
 
 
-
+//definicija objektov
 OBJECT objs[] = {
    {"an open field with passages in four directions", tags0, NULL , NULL  },
    {"a little cave with strange markings on the walls.\nAfter closer inspection it appears to show three keys, but it is hard to know for sure", tags1, NULL , NULL  },

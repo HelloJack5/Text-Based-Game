@@ -14,7 +14,7 @@
 	"location.h"
 	"inventory.h"
 
-1656575771 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
+1656596064 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -22,7 +22,7 @@
 
 1646816193 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.h
 
-1656526280 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
+1656596170 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\parsexec.c
 	<stdbool.h>
 	<stdio.h>
 	<string.h>
@@ -31,7 +31,7 @@
 
 1652030872 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.h
 
-1652542070 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.c
+1656596424 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\location.c
 	<stdbool.h>
 	<stdio.h>
 	<string.h>
@@ -39,18 +39,18 @@
 	"misc.h"
 	"noun.h"
 
-1656525171 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.h
+1656599865 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.h
 
 1652541994 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.h
 	<stdbool.h>
 
 1652540057 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.h
 
-1656581315 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.c
+1656597065 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.c
 	<stdio.h>
 	"object.h"
 
-1656573887 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.c
+1656598971 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.c
 	<stdbool.h>
 	<stdio.h>
 	"object.h"
@@ -60,17 +60,17 @@
 
 1652540011 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\move.h
 
-1652541769 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.c
+1656599948 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\misc.c
 	<stdbool.h>
 	<stdio.h>
 	"object.h"
 	"misc.h"
 
-1652540021 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\move.c
+1656599025 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\move.c
 	<stdio.h>
 	"object.h"
 
-1652542634 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.c
+1656599760 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.c
 	<stdbool.h>
 	<stdio.h>
 	<string.h>

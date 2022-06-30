@@ -4,6 +4,7 @@
 #include "object.h"
 #include "misc.h"
 
+//Preveri ce objekt ima tag
 static bool objectHasTag(OBJECT *obj, const char *noun)
 {
    if (noun != NULL && *noun != '\0')
@@ -16,7 +17,9 @@ static bool objectHasTag(OBJECT *obj, const char *noun)
    }
    return false;
 }
+//ustvarjen zato, da njegov naslov lahko klicemo v GetObject
 static OBJECT ambiguousNoun;
+//poisce objekt ki pripada nounu
 static OBJECT *getObject(const char *noun, OBJECT *from, DISTANCE maxDistance)
 {
    OBJECT *obj, *res = NULL;
@@ -29,6 +32,7 @@ static OBJECT *getObject(const char *noun, OBJECT *from, DISTANCE maxDistance)
    }
    return res;
 }
+//poda sporocilo, ce noben object ne ustreza nounu
 OBJECT *getVisible(const char *intention, const char *noun)
 {
    OBJECT *obj = getObject(noun, player, distOverthere);
@@ -50,6 +54,7 @@ OBJECT *getVisible(const char *intention, const char *noun)
    }
    return obj;
 }
+//podobno kot getVisible ki nam vrne object ali prikaze ustrezno spororocilo, ce pogoji niso izpolnjeni
 OBJECT *getPossession(OBJECT *from, const char *verb, const char *noun)
 {
    OBJECT *obj = NULL;

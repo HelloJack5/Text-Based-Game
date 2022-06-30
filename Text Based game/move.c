@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "object.h"
-
+//funkcija ki nam natancneje opise kako premaknemo predmet
 static void describeMove(OBJECT *obj, OBJECT *to)
 {
    if (to == player->location)
@@ -22,11 +22,12 @@ static void describeMove(OBJECT *obj, OBJECT *to)
              obj->description, obj->location->description);
    }
 }
+//funkcija ki premakne objekt z ene na drugo lokacijo ali vrne sporocilo, ce pogoji niso izpolnjeni
 void moveObject(OBJECT *obj, OBJECT *to)
 {
    if (obj == NULL)
    {
-      // already handled by getVisible or getPossession
+      // opravi ze getVisible ali getPossession
    }
    else if (to == NULL)
    {

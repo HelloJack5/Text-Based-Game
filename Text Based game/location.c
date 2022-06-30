@@ -5,6 +5,7 @@
 #include "misc.h"
 #include "noun.h"
 
+//funkcija, ki nam prikaze lokacijo kjer se nahaja igralec in objekte, ki se tam nahaja
 void executeLook(const char *noun)
 {
    if (noun != NULL && strcmp(noun, "around") == 0)
@@ -17,6 +18,8 @@ void executeLook(const char *noun)
       printf("I don't understand what you want to see.\n");
    }
 }
+
+//funkcija ki premakne igralca, ce se lahko premakne v smer, ki jo zahteva
 void executeGo(const char *noun)
 {
    OBJECT *obj = getVisible("where you want to go", noun);
@@ -31,7 +34,6 @@ void executeGo(const char *noun)
       printf("You don't see any %s here.\n", noun);
       break;
    case distUnknownObject:
-      // already handled by getVisible
       break;
    default:
       if (obj->destination != NULL)

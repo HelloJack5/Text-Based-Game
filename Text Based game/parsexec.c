@@ -4,6 +4,7 @@
 #include "location.h"
 #include "inventory.h"
 
+//Glavna zanka interpretira uporabnikov vnos in klice ustrezno funkcijo
 bool parseAndExecute(char *input)
 {
    char *verb = strtok(input, " \n");

@@ -6,6 +6,7 @@ bool isHolding(OBJECT *container, OBJECT *obj)
 {
    return obj != NULL && obj->location == container;
 }
+//funkcija ki se sprehodi skozi vse objekte dokler ne najde prehoda, prehod je definiran kot objekt ki poveziuje dve lokaciji. Ce najde ustrezen prehod ga vrne, ce ga ne najde vrne NULL
 OBJECT *getPassage(OBJECT *from, OBJECT *to)
 {
    if (from != NULL && to != NULL)
@@ -33,6 +34,7 @@ DISTANCE getDistance(OBJECT *from, OBJECT *to)
           getPassage(from->location, to) != NULL   ? distOverthere :
                                                      distNotHere;
 }
+
 OBJECT *actorHere(void)
 {
    OBJECT *obj;
@@ -45,6 +47,7 @@ OBJECT *actorHere(void)
    }
    return NULL;
 }
+//Prikaze list objektov na lokaciji, lokacija je lahko tudi igralec sam
 int listObjectsAtLocation(OBJECT *location)
 {
    int count = 0;

@@ -4,6 +4,7 @@
 #include "misc.h"
 #include "noun.h"
 #include "move.h"
+//funkcija ki igralcu da objekt na lokaciji, ce tega ne more storiti, vrne ustrezno sporocilo
 void executeGet(const char *noun)
 {
    OBJECT *obj = getVisible("what you want to get", noun);
@@ -31,7 +32,6 @@ void executeGet(const char *noun)
       }
    }
 }
-
 void executeDrop(const char *noun)
 {
    moveObject(getPossession(player, "drop", noun), player->location);
@@ -44,6 +44,7 @@ void executeGive(const char *noun)
 {
    moveObject(getPossession(player, "give", noun), actorHere());
 }
+//prikaze dodatno sporocilo ce igralec nima nobenega objekta ali ima vse potrebne objekte za zmago
 void executeInventory(void)
 {
    if (listObjectsAtLocation(player) == 0)

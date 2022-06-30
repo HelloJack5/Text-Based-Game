@@ -1,10 +1,11 @@
+//Definicija object podatkovnega tipa
 typedef struct object {
    const char    *description;
    const char   **tags;
    struct object *location;
    struct object *destination;
 } OBJECT;
-
+//razsiritiv scopa OBJECT podatkovnega tipa
 extern OBJECT objs[];
 
 #define field      (objs + 0)
