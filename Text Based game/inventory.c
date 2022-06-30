@@ -50,8 +50,8 @@ void executeInventory(void)
    {
       printf("You are empty-handed.\n");
    }
-   else if (listObjectsAtLocation(player) == 5)
+   else if (listObjectsAtLocation(player) == 3)
    {
-      printf("You have collected all the collectibles and keys, so you can unlock the gate in the cave \n Victory!");
+      printf("You have collected all the keys, now you can unlock the gate in the cave \n Victory!");
    }
 }

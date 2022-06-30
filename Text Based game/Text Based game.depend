@@ -14,7 +14,7 @@
 	"location.h"
 	"inventory.h"
 
-1652544350 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
+1656575771 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -46,11 +46,11 @@
 
 1652540057 c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\noun.h
 
-1656526353 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.c
+1656581315 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\object.c
 	<stdio.h>
 	"object.h"
 
-1656526516 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.c
+1656573887 source:c:\users\jakob\desktop\fasks 1. letnik\2. semester\programiranje mikrokrmilnikov\projektna naloga\big adventurer game\text based game\inventory.c
 	<stdbool.h>
 	<stdio.h>
 	"object.h"
